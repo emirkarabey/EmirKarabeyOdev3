@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".HomeFragment">
+
+    <Button
+        android:id="@+id/btnGoToAboutMe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go To About Me Screen"/>
+
+    <Button
+        android:id="@+id/btnGoToGallery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go To Gallery Screen"/>
+
+    <Button
+        android:id="@+id/btnGoToContact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go To Contact Screen"/>
+
+    <Button
+        android:id="@+id/btnGoToBlog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go To Blog Screen"/>
+
+</LinearLayout>

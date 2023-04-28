@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_margin="5dp"
+    android:padding="5dp"
+    tools:context=".AboutMeFragment">
+
+    <ImageView
+        android:id="@+id/ivMe"
+        android:layout_width="400dp"
+        android:layout_height="400dp"/>
+
+    <TextView
+        android:id="@+id/tvAboutMe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Merhaba ben Emir Karabey. Bandırmada doğdum ve orada yaşamaktayım.22yaşındayım. Sakarya Üniversitesi bilgisayar Mühendisliği bölümünde öğrenim görmekteyim. Son sınıf öğrenciyim bu yaz mezun olacağım. Yaklaşık 1 yıldır android programlama ile uğraşmakta uygulamalar geliştirip github ve play store hesabıma atmaktayım. İleride de bu alanda çalışmak istiyorum."/>
+</LinearLayout>
